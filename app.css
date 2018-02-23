@@ -1,0 +1,13 @@
+#canvas {
+  position: relative;
+  width: 10000px; /*length of horizontal page */
+  height: 100%;
+
+}
+#counter {
+  border: 1px solid red;
+  top: 0;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+}
