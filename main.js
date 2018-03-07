@@ -10,12 +10,14 @@ window.onscroll = function() {
   //test
   console.log(fromLeft);
 
+  //Keeps the block 100 px from the left
   counter.style.left = 100 + fromLeft + "px";
-  if (fromLeft > 1000) {
-    counter.innerHTML = "more than 1000 leagues.";
-    counter.style.background =  "green";
-  } else {
-    counter.innerHTML = "counter text";
-    counter.style.background = "blue";
-  }
+
+  // if (fromLeft > 1000) {
+  //   counter.innerHTML = "more than 1000 leagues.";
+  //   counter.style.background =  "green";
+  // } else {
+  //   counter.innerHTML = "counter text";
+  //   counter.style.background = "blue";
+  // }
 }
