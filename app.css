@@ -3,18 +3,30 @@
   width: 10000px; /*length of horizontal page */
   height: 100%;
 }
+#ground-level-container {
+  left: 0;
+  width: 10000px;
+  top: 80%;
+  height:
+}
 #car {
   position: absolute;
-  left: 200px;
-  top: 500px;
-  width: 541px;
-  height: 187px;
+  left: 500px;
+  top: 800px;
+  width: 500px;
+  height: 183px;
+  margin-top: 0;
+  margin-bottom: 0;
   background-image: url(img/car.png);
+  z-index: 2;
 }
-#ground {
+#street {
   position: absolute;
-  top: 700px;
-  border: 1px solid black;
-  width: 50px;
-  height: 50px;
+  top: 850px;
+  width: 780px;
+  height: 272px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: url(img/street.png);
+  background-repeat: repeat;
 }
